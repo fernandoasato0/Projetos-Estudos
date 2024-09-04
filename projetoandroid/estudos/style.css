@@ -1,0 +1,160 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=SUSE:wght@100..800&display=swap');
+@font-face {
+    font-family: "android" ;
+    src: url(../fontes/idroid.otf)format("opentype");
+}
+
+:root{
+    --cor1:#CCEDD1;
+    --cor2:#97C39D;
+    --cor3:#5C9865;
+    --cor4:#306E39;
+    --cor5:#12431A;
+}
+*{
+ margin: 0;
+ padding: 0;
+}
+body{
+    background-color:#e9eaba ;
+    overflow-x: hidden;
+}
+ 
+header{
+    background-image: linear-gradient(to top,#12431A, #306E39, #5C9865);
+    font-weight: normal;
+    text-align: center;
+    color: white;   
+    min-height: 150px;
+    justify-content: space-between;
+}
+header h1{
+    font-size: 3em;
+    font-family: "Bebas Neue", sans-serif;
+    text-shadow: 9px 4px 8px rgba(0, 0, 0, 0.283);;
+    margin: auto;
+    padding-top: 40px;
+    font-weight: normal;
+
+}
+
+header p {
+    padding: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+    font-size: 1.1em;
+    text-align: center;
+}
+nav{
+    background-color: #12431A;
+    padding: 10px 0px;
+    
+}
+nav a{
+    font-family: "Bebas Neue",  Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: var(--cor1);
+    font-size: 15px;
+    margin: 0px 8px;
+
+}
+nav a:hover{
+    color: var(--cor4);
+    background-color: var(--cor1);
+    border-radius: 2px;
+}
+
+main{
+    min-width: 280px;
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+main h1, h2{
+    font-size: 1.6em;
+    font-weight: normal;
+    font-family: android;
+    color: var(--cor5);
+    background-image: linear-gradient(to right, #97C39D, #CCEDD1, white);
+    border-radius: 10px;
+    padding-left: 10px;
+}
+img {
+    display: block; /* Faz com que a imagem seja exibida como um bloco, removendo qualquer espaço abaixo da imagem (evita o espaço indesejado causado por elementos inline) */
+    max-width: 100%; /* Define a largura máxima da imagem para 100% do elemento pai, garantindo que a imagem não ultrapasse a largura do container */
+    max-height: auto; /* Define a altura máxima da imagem como automática, mantendo a proporção da imagem ao ajustar a largura */
+    margin: 0 auto; /* Define as margens superior e inferior como 0 e as margens esquerda e direita como automáticas, centralizando a imagem horizontalmente no container */
+
+}
+div.video{
+    background-color: #12431A;
+    margin: 30px -10px;
+    position: relative;
+    padding: 3em;
+    padding-bottom: 51.5%;
+
+
+}
+
+div.video >iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+} 
+
+p {
+    font-family:  SUSE,  Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-align: justify;
+    margin: 10px;
+    text-indent: 20px;
+    line-height: 1.1em;
+
+}
+ul{
+    padding-left: 25px;
+    font-family:  SUSE,  Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+footer{
+    font-family:SUSE,  Arial, Helvetica, sans-serif;;
+    color: white;
+    background-color: black;
+    padding: 50px;
+    justify-content: space-between;
+    text-align: left;
+    margin-top: 20px;
+}
+
+#bugdroidimg{
+    max-width:350px ;
+}
+
+aside{
+    min-width: 280px;
+    background-color: #CCEDD1;
+    padding: 0px -5px -5px -5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.206);;
+
+}
+aside h3{
+    font-family: "SUSE";
+    background-color: #306E39;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+aside ul{
+    columns: 2;
+    list-style-position: inside;
+    list-style-type: "🗸";
+}
