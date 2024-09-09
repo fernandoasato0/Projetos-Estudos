@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+/* Para telas entre 768px e 992px */
+@media screen and (min-width: 768px) and (max-width: 992px){
+    body{
+        background-image: linear-gradient(to bottom,#3E6FBB,#C8CFD9, #FD7762);
+    }
+
+    section{
+        width: 90vw;
+    }
+
+
+    section div#imagens {
+        float: left;
+        width: 35%;
+        height: 100vh;
+    }   
+    sectiom div#formulario{
+        float: right;
+        width: 65%;
+    }
+}
+
+
+/* Para telas entre 992px e 1280px */
+@media screen and (min-width: 992px){
+
+body{
+    background-image: linear-gradient(to bottom,#3E6FBB,#FD7762);
+}
+
+section{
+    width: 70vw;
+}
+
+section div#imagens{
+    float: right;
+    width: 35%;
+    height: 100vh;
+}
+
+section div#formulario{
+    align-items: center;
+    float: left;
+    width: 65%;
+    height: 100vh;
+  }
+}
+
+
