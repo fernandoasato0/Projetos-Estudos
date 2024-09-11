@@ -106,5 +106,15 @@ div > form > a#fp{
     width: 90%;
     padding: 10px;
 }
+div > form > a#fp:hover {
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 10px auto;
+    width: 90%;
+    padding: 10px;
+}
 
 
