@@ -16,6 +16,7 @@
         float: right;
         width: 65%;
   }
+}
 
 /* Para telas entre 768px e 992px */
 @media screen and (min-width: 768px) and (max-width: 992px){
@@ -69,4 +70,3 @@ section div#formulario{
   }
 }
 
-}
