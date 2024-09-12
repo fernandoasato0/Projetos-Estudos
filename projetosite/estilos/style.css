@@ -76,12 +76,12 @@ section{
     align-items: center;
     text-align: justify;
    
-
 }
-section h2{
+
+main section h2{
     padding-left: 10px;
 }
-section p{
+main section p{
     text-indent: 40px;
     font-weight: 500;
 }

@@ -67,9 +67,10 @@
 
 }
 
-@media (max-width: 300px) {
+@media (max-width: 320px) {
     section{
-        width: 80vh;
-        height: 200px;
+        width: 290px;
+        height: 320px;
+  
     }
 }
