@@ -60,6 +60,11 @@ header nav a{
     padding: 5px;
 
 }
+header nav a:hover{
+    background-color: white;
+    color: black;
+    font-weight: 600;
+}
 
 section{
     width: 500px;
