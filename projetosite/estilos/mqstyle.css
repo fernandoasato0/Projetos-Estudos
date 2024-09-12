@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+@media (max-width: 660px) {
+    body{
+        background-color: rgb(221, 218, 224);
+    }
+    header div#h1{
+        background-color: grey;
+    }
+    header nav#menunav{
+        background-color: grey;
+        justify-content: flex-start; 
+        padding-bottom: 5px;
+    }
+    header nav a:hover{
+        background-color: white;
+        color: black;
+        font-weight: 600;
+    }  
+    section{
+        width: 450px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 500px) {
+    body{
+        background-color: rgb(221, 218, 224);
+        overflow-x: hidden;
+    }
+
+    header #cmc{
+        background-color:  grey;
+        display: flex;
+        flex-direction: column;
+        height: 100vw;
+        width: 100vh;
+        justify-content: space-around;
+        align-items: center;
+        flex: wrap;
+    }
+    header div#h1{
+        background-color:  grey;
+        width: 100%;
+        height: 4vh;
+        align-content: center;
+        text-align: center;
+        flex: none;
+    }
+    
+    header nav#menunav{
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+        flex-direction: column;
+    }
+    header nav a{
+        width: 80%;
+        text-align: center;
+        border: none;
+        font-size: 1em;
+        padding: 4px;
+        margin: 0px 0px 5px 0px;
+    }
+    header nav a:hover{
+        background-color: white;
+        color: black;
+        font-weight: 600;
+    }
+    section{
+        width: 450px;
+        height: 200px;
+
+    }
+}

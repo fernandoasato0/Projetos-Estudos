@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(229, 224, 224);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+main{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    justify-content: space-around;
+    align-content: center;
+}
+
+header#cmc{
+    display: flex;
+    width: 100vw;
+
+    background-color: grey;
+    flex-flow: row-reverse wrap-reverse;
+    justify-content: space-between;
+    align-content: center;
+}
+
+header div#h1{
+    padding: 10px;
+    width: 190px;
+    color: white;
+    background-color: grey;
+    padding-left: 10px;
+    text-shadow: 1px 1px 1px black;
+    flex: auto;
+
+}
+header nav#menunav{
+
+    background-color: grey;
+    display: flex;
+    flex-flow: row wrap;
+    padding-right: 10px;
+    justify-content: flex-end;
+    flex: auto;
+    align-items: center;
+
+}
+
+header nav a{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 1em;
+    margin-left: 5px;
+    padding: 5px;
+
+}
+
+section{
+    width: 500px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+    align-items: center;
+    text-align: justify;
+   
+
+}
+section h2{
+    padding-left: 10px;
+}
+section p{
+    text-indent: 40px;
+    font-weight: 500;
+}
